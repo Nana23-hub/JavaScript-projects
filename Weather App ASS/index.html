@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3acb717572.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="first-child">
+            <h1 id="day"></h1>
+            <h4 id="date"></h4>
+            <i class="fa-solid fa-cloud-sun fa-flip-horizontal fa-2xl" style="color: #dadee2;" id="cloud-icon"></i>
+            <h1 id="temp"></h1>
+            <p id="cloudy"></p>
+        </div>
+        <div class="second-child">
+            <div class="input-container">
+                <input id="input" type="text" placeholder="Search Location...">
+                <button id="search-btn">Search</button>
+                <!-- <span id="error">Incorrect city name.please try again</span> -->
+            </div>
+            <p id="city-name">Polonnaruwa,Sri Lanka &nbsp; &nbsp; <i class="fa-solid fa-location-dot fa-sm" style="color: #db242d;"></i></p>
+            <div class="deg-param">
+            <ul>
+                <li ><button id="deg-one"> 31&deg;C</button>
+                    <p id="max">Max temperature</p>
+                </li>
+                <li><button id="deg-two">25&deg;C</button>
+                    <p id="min">Min temperature</p>
+                </li>
+            </ul>
+        </div>
+        <div class="param">
+            <ul>
+                <li><p id="numb">37</p>
+                    <p>Feels Like</p>
+                    <i class="fa-solid fa-hand-sparkles fa-sm" style="color: #e9eaed;"></i>
+                </li>
+                <li>
+                    <p id="numb1">45%</p>
+                    <p>Humidity</p>
+                    <i class="fa-solid fa-droplet fa-sm" style="color: #e6e9ef;"></i>
+                </li>
+                <li><p id="numb2">5  m/s</p>
+                    <p>Wind</p>
+                    <i class="fa-solid fa-wind fa-sm" style="color: #e6e7ea;"></i>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

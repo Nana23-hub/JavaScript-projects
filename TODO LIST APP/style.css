@@ -1,0 +1,82 @@
+body {
+  background-image: url(Assets/todo-lists-5238324_1280.jpg);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  height: 100vh;
+
+}
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(126, 73, 4);
+}
+
+.app-container{
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 308px;
+    opacity: 0.5;
+}
+
+#taskInput{
+    padding: 15px;
+    font-size: 10px;
+    border: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#addTask{
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   background-color: rgb(224, 143, 38);
+    border: none;
+    box-shadow: 0 2px 10px grey;
+    font-stretch: expanded;
+    font-weight: 700;
+}
+#addTask:hover {
+    box-shadow: 0 2px 10px #252525;
+
+}
+#todolist{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+#todolist li{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+}
+.complete-btn{
+    color: #4CAF50;
+    border: none;
+    font-size: 15px;
+
+
+}
+.delete-btn{
+    border: none;
+  
+}
+
+#todolist li.complete{
+    text-decoration: line-through;
+    background-color: rgb(161, 100, 13);
+    transition: 1s ease-in;
+}
