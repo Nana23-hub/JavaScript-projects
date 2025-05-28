@@ -46,3 +46,19 @@ button{
     width: 100%;
     
 }
+
+/*responsiveness*/
+@media (max-width: 600px) {
+    #profile-card{
+        width: 90%;
+        padding: 10px;
+    }
+    #profile-card img{
+        width: 80px;
+        height: 80px;
+    }
+    button{
+        width: 100%;
+        padding: 10px;
+    }
+}

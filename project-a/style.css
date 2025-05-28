@@ -80,3 +80,21 @@ h1{
     background-color: rgb(161, 100, 13);
     transition: 1s ease-in;
 }
+/* Responsiveness */
+@media (max-width: 768px) {
+    .app-container {
+        width: 90%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #taskInput, #addTask {
+        font-size: 12px;
+        padding: 10px;
+    }
+    #todolist li {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

@@ -55,3 +55,22 @@ p{
     font-style: italic;
     font-weight: 700;
 }
+/* responsiveness */
+@media (max-width: 600px) {
+    body{
+        margin: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #textInput{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        font-size: 18px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
