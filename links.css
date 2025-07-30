@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #18242a;
+}
+h1 {
+    text-align: center;
+    color: #0cda5e;
+    font-family: 'Oleo Script', serif;
+    font-weight: 700;
+}
+.project-links {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+ a:hover {
+    color: #de099b;
+    letter-spacing: 0.5rem;
+    transition: 0.5s ease-in-out;
+ }  
+ a {
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Oleo Script', serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+ }     
