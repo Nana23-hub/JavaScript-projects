@@ -1,5 +1,5 @@
 body {
-  background-image: url(Assets/todo-lists-5238324_1280.jpg);
+  background-image: url("asset/todo-lists-5238324_1280.jpg");
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -52,7 +52,7 @@ h1{
     margin: 10px 0;
 }
 #todolist li{
-    border: 1px solid #ddd;
+    border: 2px solid #1d1111;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -60,8 +60,9 @@ h1{
     justify-content: space-between;
     margin-bottom: 4px;
     background-color: #000;
-    color: white;
-    opacity: 0.5;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 60px;
 }
 .complete-btn{
     color: #4CAF50;
@@ -81,7 +82,7 @@ h1{
     transition: 1s ease-in;
 }
 /* Responsiveness */
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 600px) {
     .app-container {
         width: 90%;
         padding: 10px;
@@ -97,4 +98,5 @@ h1{
         font-size: 12px;
         padding: 8px;
     }
+    
 }

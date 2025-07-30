@@ -56,7 +56,7 @@ p{
     font-weight: 700;
 }
 /* responsiveness */
-@media (max-width: 600px) {
+@media (min-width: 370px) and (max-width: 1024px) {
     body{
         margin: 10px;
     }
@@ -69,6 +69,10 @@ p{
     button{
         width: 100%;
         font-size: 18px;
+    }
+    button:hover {
+        width: 50%;
+        font-size: 20px;
     }
     p{
         font-size: 18px;

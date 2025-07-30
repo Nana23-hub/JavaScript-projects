@@ -8,7 +8,7 @@
 }
 
 section{
-    background-image: url(ASSETS/NP4cmU-2272199700.jpg);
+    background-image: url(Assets/tree-desert-white-clouds-daytime_395237-190.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -67,6 +67,7 @@ section{
 }
 .input-container{
     padding-bottom: 25px;
+    
 }
 .input-container input{
     border: 1.5px solid #fff;
@@ -159,17 +160,32 @@ section{
 .param ul>li>i.fa-droplet{
     padding-inline: 20px;
 }
-#error{
+.error-message{
     display: none;
-    color: red;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(-10px);
 }
-@media screen and (max-width:768px) {
+.error-message.show{
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* @media(max-width:1024px) {
     
     .container{
        width: 320px;
        display: block;
        margin: 0 auto;
-       margin-bottom: 80px;
+       margin-bottom: 260px;
 
     }
     .input-container input{
@@ -181,6 +197,24 @@ section{
        .deg-param ul{
         padding-right: 15px;
        } 
+    }  */
+    @media(min-width:370px) and (max-width: 1024px) {
+        .container{
+            width: 320px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 260px;
+        }
+        .input-container input{
+            width: 170px;
+        }
+        .first-child{
+            width: 320px;
+        } 
+        .deg-param ul{
+            padding-right: 15px;
+        } 
     }
+
 
     
